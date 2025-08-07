@@ -31,8 +31,30 @@
 				"policy": {
 					"elapsedTimeMetric": {}
 				},
+				"parameters": {
+					"myparameter": {
+						"type": "string",
+						"defaultValue": "myvalue"
+					}
+				},
+				"variables": {
+					"myvariable": {
+						"type": "String",
+						"defaultValue": "mydefault"
+					},
+					"anothervariable": {
+						"type": "String"
+					}
+				},
 				"annotations": []
 			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/default')]",
+			"type": "Microsoft.DataFactory/factories/globalparameters",
+			"apiVersion": "2018-06-01",
+			"properties": {},
 			"dependsOn": []
 		}
 	]
