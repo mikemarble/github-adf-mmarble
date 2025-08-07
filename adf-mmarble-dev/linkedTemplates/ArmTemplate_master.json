@@ -9,7 +9,7 @@
 		},
 		"kv_mmarble_properties_typeProperties_baseUrl": {
 			"type": "string",
-			"defaultValue": "https://kv-mmarble-dev.vault.azure.net/"
+			"defaultValue": "@{linkedService().kvURL}"
 		},
 		"containerUri": {
 			"type": "string",

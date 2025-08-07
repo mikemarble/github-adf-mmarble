@@ -9,7 +9,7 @@
 		},
 		"kv_mmarble_properties_typeProperties_baseUrl": {
 			"type": "string",
-			"defaultValue": "https://kv-mmarble-dev.vault.azure.net/"
+			"defaultValue": "@{linkedService().kvURL}"
 		}
 	},
 	"variables": {
@@ -60,6 +60,12 @@
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
+				"parameters": {
+					"kvURL": {
+						"type": "string",
+						"defaultValue": "https://kv-mmarble-dev.vault.azure.net/"
+					}
+				},
 				"annotations": [],
 				"type": "AzureKeyVault",
 				"typeProperties": {
