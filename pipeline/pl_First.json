@@ -12,6 +12,12 @@
 				}
 			}
 		],
+		"parameters": {
+			"myparameter": {
+				"type": "string",
+				"defaultValue": "myvalue"
+			}
+		},
 		"variables": {
 			"myvariable": {
 				"type": "String",
