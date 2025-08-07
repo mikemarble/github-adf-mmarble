@@ -1,0 +1,10 @@
+{
+	"name": "kv_mmarble",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv-mmarble-dev.vault.azure.net/"
+		}
+	}
+}
