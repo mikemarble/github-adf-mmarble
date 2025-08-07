@@ -1,10 +1,16 @@
 {
 	"name": "kv_mmarble",
 	"properties": {
+		"parameters": {
+			"kvURL": {
+				"type": "string",
+				"defaultValue": "https://kv-mmarble-dev.vault.azure.net/"
+			}
+		},
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
-			"baseUrl": "https://kv-mmarble-dev.vault.azure.net/"
+			"baseUrl": "@{linkedService().kvURL}"
 		}
 	}
 }
