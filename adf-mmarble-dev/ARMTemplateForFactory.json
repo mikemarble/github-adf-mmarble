@@ -35,16 +35,10 @@
 				"policy": {
 					"elapsedTimeMetric": {}
 				},
-				"parameters": {
-					"myparameter": {
-						"type": "string",
-						"defaultValue": "myvalue"
-					}
-				},
 				"variables": {
-					"myvariable": {
+					"mykeyvault": {
 						"type": "String",
-						"defaultValue": "mydefault"
+						"defaultValue": "https://kv-mmarble-dev.vault.azure.net/"
 					},
 					"anothervariable": {
 						"type": "String"
