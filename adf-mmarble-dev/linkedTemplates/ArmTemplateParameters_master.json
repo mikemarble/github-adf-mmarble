@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adf-mmarble-dev"
 		},
+		"kv_mmarble_properties_typeProperties_baseUrl": {
+			"value": "https://kv-mmarble-dev.vault.azure.net/"
+		},
 		"containerUri": {
 			"value": ""
 		},
