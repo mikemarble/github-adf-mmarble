@@ -12,6 +12,15 @@
 				}
 			}
 		],
+		"variables": {
+			"myvariable": {
+				"type": "String",
+				"defaultValue": "mydefault"
+			},
+			"anothervariable": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
