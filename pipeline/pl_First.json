@@ -10,6 +10,23 @@
 				"typeProperties": {
 					"waitTimeInSeconds": 2
 				}
+			},
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "mykeyvault",
+					"value": {
+						"value": "@pipeline().globalParameters.gblKV",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"variables": {
