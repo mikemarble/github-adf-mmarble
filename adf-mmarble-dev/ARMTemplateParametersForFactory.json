@@ -7,6 +7,9 @@
 		},
 		"kv_mmarble_properties_typeProperties_baseUrl": {
 			"value": "@{linkedService().kvURL}"
+		},
+		"default_properties_gblKV_value": {
+			"value": "https://kv-mmarble-dev.vault.azure.net/"
 		}
 	}
 }

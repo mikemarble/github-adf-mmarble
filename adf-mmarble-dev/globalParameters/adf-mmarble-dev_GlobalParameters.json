@@ -1,1 +1,6 @@
-{}
+{
+	"gblKV": {
+		"type": "string",
+		"value": "https://kv-mmarble-dev.vault.azure.net/"
+	}
+}

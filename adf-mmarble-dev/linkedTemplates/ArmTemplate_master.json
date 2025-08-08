@@ -11,6 +11,10 @@
 			"type": "string",
 			"defaultValue": "@{linkedService().kvURL}"
 		},
+		"default_properties_gblKV_value": {
+			"type": "string",
+			"defaultValue": "https://kv-mmarble-dev.vault.azure.net/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -37,6 +41,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"default_properties_gblKV_value": {
+						"value": "[parameters('default_properties_gblKV_value')]"
 					},
 					"kv_mmarble_properties_typeProperties_baseUrl": {
 						"value": "[parameters('kv_mmarble_properties_typeProperties_baseUrl')]"
