@@ -1,0 +1,12 @@
+{
+	"name": "adf-mmarble-dev",
+	"properties": {
+		"globalParameters": {
+			"gblKV": {
+				"type": "string",
+				"value": "https://kv-mmarble-dev.vault.azure.net/"
+			}
+		}
+	},
+	"location": "eastus"
+}
